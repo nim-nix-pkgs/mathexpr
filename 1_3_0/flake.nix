@@ -11,6 +11,7 @@
   inputs.src-mathexpr-1_3_0.ref   = "refs/tags/1.3.0";
   inputs.src-mathexpr-1_3_0.owner = "Yardanico";
   inputs.src-mathexpr-1_3_0.repo  = "nim-mathexpr";
+  inputs.src-mathexpr-1_3_0.dir   = "";
   inputs.src-mathexpr-1_3_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
