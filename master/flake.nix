@@ -11,7 +11,6 @@
   inputs.src-mathexpr-master.ref   = "refs/heads/master";
   inputs.src-mathexpr-master.owner = "Yardanico";
   inputs.src-mathexpr-master.repo  = "nim-mathexpr";
-  inputs.src-mathexpr-master.dir   = "";
   inputs.src-mathexpr-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
